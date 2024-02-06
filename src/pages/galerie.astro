@@ -1,0 +1,25 @@
+---
+import ImageGallery2 from '../components/gallery/Galerie2';
+import ImageGallery3 from '../components/gallery/Galerie3';
+import ImageGallery4 from '../components/gallery/Galerie4';
+import ImageGallery5 from '../components/gallery/Galerie5';
+import Layout from '../layouts/Layout.astro';
+import { MyGallery } from '../components/gallery/Galerie1';
+---
+
+<Layout
+description="Klimatizace&Tepelná čerpadla Jirout"
+title="Kontakt"
+>
+<MyGallery client:only/>
+ <ImageGallery2 client:only/>
+  <ImageGallery3 client:only/>
+  <ImageGallery4 client:only/>
+  <ImageGallery5 client:only/>
+
+</Layout>
+
+
+
+
+
